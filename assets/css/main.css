@@ -1,0 +1,32 @@
+.bodybackground{
+    background-color: cadetblue;
+    width: 98%;
+    text-align:center;
+    margin: auto;
+}
+
+.headercontainer{
+    background-color: aquamarine;
+    top: 50px;
+}
+
+.headerhome{
+    display:flex;
+    align-items: center;
+}
+
+.headernavigation{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex:1;
+}
+
+.headernavigationitem{
+    margin-left: 10px;
+    padding:10%;
+    color:dodgerblue;
+    font-size: 20px;
+    font-weight:500;
+    transition:all .2s;
+}
