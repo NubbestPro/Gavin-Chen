@@ -35,7 +35,9 @@
 }
 
 .text_pagehead {
-    font-size: 50px;
+    font-size: 80px;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .text_subtitle {
     font-size: 40px;
@@ -437,7 +439,7 @@ a:link {
 }
 
 .Header_navigation_item:hover{
-    color:blue;
+    color:white;
 }
 .Header_navigation_item:active{
     color:#e96bd4; 
