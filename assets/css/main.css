@@ -3,12 +3,12 @@
     text-align: center;
     margin: auto;
     font-family: 'Raleway','Source Sans Pro', 'Arial';
-    background-color:lightblue; /* old #edf5f5 */
+    background-color:darkblue; /* old #edf5f5 */
     z-index: 1;
 }
 .pagecontainer {
     width: 100%;
-    background-color:purple;   
+    background-color:darkblue;   
 }
 
 .width100percentage {
@@ -91,7 +91,7 @@
     }
 }
 .button_submit {
-    background-color: blue;
+    background-color: white;
     color: white;
     width: 71%;
     padding-top: 8px;
