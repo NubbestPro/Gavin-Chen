@@ -3,9 +3,9 @@
 $file=file_get_contents("./content.html");
 $combine=$file;
 
-$combined = preg_replace('/<!--.*?-->/ms','',$combined);
-$combined = preg_replace('/\s+/', ' ', $combined);
-$combined = preg_replace('~>\s+<~', '><', $combined);
+$combine = preg_replace('/<!--.*?-->/ms','',$combine);
+$combine = preg_replace('/\s+/', ' ', $combine);
+$combine = preg_replace('~>\s+<~', '><', $combine);
 
 echo $combine;
 exit;
