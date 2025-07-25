@@ -3,8 +3,9 @@
 $file=file_get_contents("./content.html");
 
 $copyYear = 2019; 
-$curYear = date('Y');
-$file=str_replace('&copy; 2019 - 2024', '.&copyYear.(($copyYear != $curYear') ? ' - '.$curYear : ''), $file);
+$curYear = date('Y'); 
+$file = str_replace('&copy; 2019 - 2024', '&copy; '.$copyYear.(($copyYear != $curYear) ? ' - '.$curYear : ''), $file);
+
 
 $combine=$file;
 
