@@ -262,7 +262,7 @@
         justify-content:flex-start;    }
 }
 
-#custom_background_css {
+.custom_background_css {
     background-image: url("https://gavinchen.lemonthy.ca/assets/img/waterloo.png"); 
     background-position: right top; 
     background-size: cover; 
