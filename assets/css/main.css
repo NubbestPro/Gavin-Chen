@@ -34,6 +34,12 @@
     }
 }
 
+.links {
+    background: rgb(41,41,41) !important;
+    border-radius: 10% !important;
+}
+
+
 .text_pagehead {
     font-size: 80px;
     color:white;
@@ -45,6 +51,7 @@
 .text_subtitle2 {
     margin-top: 2%;
     font-size: 25px;
+    color: blue;
 }
 
 .text_subtitle3 {
@@ -58,13 +65,6 @@
 }
 
 
-.text_subtitle_form {
-    margin-top: 1%;
-    font-size: 25px;
-    text-align: left;
-    margin-left: 30%;
-    line-height: 38px;
-}
 @media (max-width:600px){
     .text_subtitle_form {
         margin-left: 0%;
@@ -98,19 +98,23 @@
 
 
 .icon_out_phone {
-    background: white !important;
+    font-size: 50px;
+    color: white !important;
 }
 
 .icon_in_phone {
     color:blue !important;
+    font-size: 30px;
 }
 
 .icon_out_email {
-    background: white !important;
+    font-size: 50px;
+    color: white !important;
 }
 
 .icon_in_email {
     color:blue !important;
+    font-size: 30px;
 }
 
 
@@ -366,13 +370,13 @@ a:link {
   }
   
   a:visited {
-    color: pink;
+    color: lightblue;
     background-color: transparent;
     text-decoration: none;
   }
   
   a:hover {
-    color: red;
+    color: lightpink;
     background-color: transparent;
     text-decoration: underline;
   }
