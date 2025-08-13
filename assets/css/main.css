@@ -56,12 +56,8 @@
 }
 
 .text_subtitle3 {
-    margin-top: 2%;
-    font-size: 25px;
-    text-align: left;
-    margin-left: 30%;
     display:flex;
-    align-items: left;
+    align-items: center;
     justify-content:left;
 }
 
@@ -105,25 +101,29 @@
 }
 
 
-.icon_out_phone {
-    font-size: 50px;
-    color: white !important;
-}
-
-.icon_in_phone {
-    color:blue !important;
-    font-size: 30px;
-}
-
-.icon_out_email {
-    font-size: 50px;
-    color: white !important;
-}
-
-.icon_in_email {
-    color:blue !important;
-    font-size: 30px;
-}
+a:wiki {
+    color: lightgreen;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: lightseagreen;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: lightpink;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 
 
 
